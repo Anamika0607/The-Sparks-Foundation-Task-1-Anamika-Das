@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Account</title>
+  <!-- BOOTSTRAP-CSS-STYLE-LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <!-- FONT AWESOME LINK -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- CSS-STYLE-LINK -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--FEVICONS -->
+  <link rel="icon" href="images\favicon.ico">
+
+  <!-- GOOGLE FONT LINK -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-md py-1 navbar-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand name" href="index.html">🏛 TSF Bank</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#transationHistory">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Offers</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <button class="btn btn-md secondaryBtn fa" type="submit">
+            <a href="account.html">&#xf007 Account </a></button>
+          <button class="btn btn-md primaryBtn " type="submit">
+            <a href="index.html">Log Out</a></button>
+
+
+        </form>
+      </div>
+    </div>
+
+  </nav>
+
+
+  <main class="container-fluid my-5 " id="main">
+    <div class="row">
+
+      <div class="col-sm-12 img-amt-div bgimage ">
+
+        <div class="col-sm-11 heading1">
+          <div class="content1">
+
+            <h1 class="display-9 fw-bold ">TSF Digital Banking </h1><br>
+            <p><strong><strong>ipsum dolor sit amet consectetur adipisicing elit. Esse, illum!
+                  <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, pariatur. and payment.</strong></strong> </p>
+
+            <button class="btn btn-lg primaryBtn" type="submit"><a class="" href="transfer.html">Transfer Now</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!--Table-->
+  <div class="container">
+    <div class="table-responsive">
+      <table class="table table-hover table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Sr. No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">E-Mail ID</th>
+            <th scope="col">Bank Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td scope="row">1</td>
+            <td>Anamika Das</td>
+            <td>anamika@gmail.com</td>
+            <td>
+              <p id="anamikaBankBalance">20000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">2</td>
+            <td>Manikuntala Das</td>
+            <td>manikuntala@gmail.com</td>
+            <td>
+              <p id="manikuntalaBankBalance">65000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">3</td>
+            <td>Aindrila Das</td>
+            <td>aindrila@gmail.com</td>
+            <td>
+              <p id="aindrilaBankBalance">18000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">4</td>
+            <td>Mrinalini Sarkar</td>
+            <td>mrinalini@gmail.com</td>
+            <td>
+              <p id="mrinaliniBankBalance">26000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">5</td>
+            <td>Kalyan Das</td>
+            <td>kalyan@gmail.com</td>
+            <td>
+              <p id="kalyanBankBalance">45000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">6</td>
+            <td>Debanjan Chakravarty</td>
+            <td>debanjan@gmail.com</td>
+            <td>
+              <p id="debanjanBankBalance">30000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">7</td>
+            <td>Ayan Sarkar</td>
+            <td>ayan@gmail.com</td>
+            <td>
+              <p id="ayanBankBalance">23000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">8</td>
+            <td>Lopamudra Dutta</td>
+            <td>lopa@gmail.com</td>
+            <td>
+              <p id="lopaBankBalance">62000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">9</td>
+            <td>Sanghamitra Dutta</td>
+            <td>sanghamitra@gmail.com</td>
+            <td>
+              <p id="sanghamitraBankBalance">38000</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td scope="row">10</td>
+            <td>Ranjit Das</td>
+            <td>ranjit@gmail.com</td>
+            <td>
+              <p id="ranjitBankBalance">46000</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <section>
+
+    <hr>
+    <footer>
+      <div class="footer  px-4 py-2 text-center">
+        <div class="py-5">
+          <h2 class="display-5 fw-bold name">TSF BANK</h2>
+          <div class="col-lg-12 mx-auto">
+            <p class="fs-5 mb-4 fa">Developed by Anamika Das</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center py-3">
+              <button type="button" name="" id="" class="btn btn-lg primaryBtn fab">
+                <a class="" href="https://github.com/Anamika0607" target="_blank">&#xf09b Github repository</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
+  <!---------------------------------------------------------HTML END------------------------------------------------------------------------------------------------------>
+
+  <!-- JS-LINK -->
+
+  <script src="app.js"></script>
+  <!-- JQUERY, POPPER.JS & BOOTSTRAP LINK -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
